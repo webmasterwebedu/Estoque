@@ -1,0 +1,25 @@
+
+<?php
+$servername = "localhost";
+$database = "db-name";
+$username = "db-user";
+$password = "senha-do-banco";
+// Create connection
+// Create connection
+
+// Cria a conexão
+$ligacao = mysqli_connect($servername, $username, $password, $database);
+
+// Verifica a conexão
+if (!$ligacao) {
+    die("Connection failed: " . mysqli_connect_error());
+}
+
+// Configura a conexão para usar UTF-8
+mysqli_set_charset($ligacao, "utf8mb4");
+
+// Teste de conexão (opcional, pode ser removido)
+// echo "Connected successfully";
+
+?>
+

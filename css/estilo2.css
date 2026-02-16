@@ -1,0 +1,62 @@
+@charset "utf-8";
+/* CSS Document */
+
+Body{
+			font-family:Verdana, Geneva, sans-serif;
+			font-size:12px;
+			font-weight:bold;
+			margin-top:0px;
+
+}
+td{
+			font-family:Verdana, Geneva, sans-serif;
+			font-size:10px;
+
+
+
+}
+
+
+
+.tdbaixo{
+			font-family:Verdana, Geneva, sans-serif;
+			font-size:7px;
+		
+
+}
+
+.td-cinza{
+	background-color:#333;
+	color:#FFF;	
+}
+
+
+.divimg1{
+
+		margin-left:150px;
+		text-align:justify;
+		
+		width:800px;
+
+}
+
+#corpo{
+		
+		text-align:justify;
+		width:800px;
+	/*	border:#000 1px solid; */
+			
+}
+
+#corpo2{
+		
+		text-align:justify;
+		width:800px;
+		line-height: 2;
+		font-size:12px;
+		
+		
+	/*	border:#000 1px solid; */
+			
+}
+

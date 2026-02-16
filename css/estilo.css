@@ -1,0 +1,248 @@
+@charset "utf-8";
+/* CSS Document */
+
+body{
+    font-family:verdana
+    font-size: 12px;
+	background-color:#fff;
+}
+
+h2,h3 {
+	text-shadow: 0.1em 0.1em 0.7em black;
+	color:#000;
+}
+
+h1 {
+	text-shadow: 0.1em 0.1em 0.7em black;
+	color:#000;
+}
+
+.hs1 {
+	text-shadow: 0.1em 0.1em 0.7em black;
+	color:#fff;
+}
+
+.-imagem-com-sombra {
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+#ajuda{
+		align:right;
+
+}
+
+
+#corpogeral{
+	width:1200px;
+	padding-left:100px;
+	border:1px solid;
+	/* background-image: url('../imagens/fundo-clear.jpg'); 
+	opacity: 0.8; */
+
+}
+#corpogeralpop{
+	width:600px;
+	padding-left:100px;
+		margin-left:20px;
+	border:1px solid;
+	/* background-image: url('../imagens/fundo-clear.jpg'); 
+	opacity: 0.8; */
+
+}
+
+        /* Estilos para ocultar a div inicialmente */
+        #minhaDiv {
+            display: none;
+        }
+		
+		#minhaDiv{
+		background-color:#e0ffff;
+		position: absolute;
+		width:450px;
+		height:200px;
+		font-family:Verdana, Arial, Helvetica, sans-serif;
+		border:4px solid #000000;
+			top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+		}
+
+
+#corpo{
+	width:600px;
+	margin-left:10px;
+	padding-left:20px;
+/*	margin:1px solid; 
+	float:left;*/
+	background: rgba(1, 1, 80, 0.3);
+	color:#FFF;
+	
+}
+
+#addproduto{
+    width:300px;
+    text-align: left;
+    float: left;
+    border-style: solid;
+    border-width: 0px;
+    padding-left:120px;
+}
+#addproduto1{
+ 
+    text-align: left;
+    float: left;
+    
+}
+
+#corpo2{
+	width:600px;
+	padding-top:100px;
+	padding-left:20px;
+	margin-left:5px;
+/*	margin:1px solid; */
+	float:left;
+	
+	color:#000;
+}
+
+#corpo3{
+	width:1200px;
+	margin-left:0px;
+	padding-left:0px;
+	border:1px solid; 
+/*	float:left;
+	background: rgba(1, 1, 80, 0.3);*/
+	color:#000;
+}
+
+#corpo4{
+	width:900px;
+	padding-left:20px;
+	margin-left:20px;
+		background-color:#dff4fb;
+		border:solid #000 1px;
+	text-align:left;
+			text-shadow:
+    /*-1px -1px 0 black,  Sombra superior e esquerda */
+    /*1px -1px 0 black,   Sombra superior e direita */
+    /* -1px 1px 0 black,  Sombra inferior e esquerda */
+   /* 1px 1px 0 black;    Sombra inferior e direita */
+	color:#000;
+}
+
+#topogeral{
+		width:1200px;
+		height:130px;
+	/*	border: solid 1px #ff0000;
+	background-color:#000088; 
+	background-image: url('../imagens/fundo-clear.jpg');
+	background-repeat: no-repeat;*/
+}
+#topogeralGrupo{
+		width:1200px;
+		height:150px;
+	/*background-color:#000088; */
+	background-image: url('../imagens/fundo-clear.jpg');
+	background-repeat: repeat-x; */
+}
+
+#topo1{
+		width:410px;	
+	/*background-color:#000088; */
+	background-image: url('../imagens/fundo-clear.jpg');
+	background-repeat: repeat-x -y; 
+	float:left;
+
+
+	
+}
+
+#topo2{
+		width:980px;
+		background-color:#dff4fb;
+		border:solid #000 1px;
+
+}
+
+.cor1 {
+  background-color: #dff4fb; /* azul da clear */
+}
+
+.cor2 {
+  background-color: #fff; /* Branco */
+}
+
+.quadrado{
+	padding:10px;
+	background-color:#900;
+	color:#FFF;
+}
+.margemE{
+	padding-left:550px;
+}
+
+
+hr{
+    color:#fff;
+    height: 0px;   
+    border: solid;
+}
+
+
+
+.td{
+	background-color:#333;
+	color:#33F;
+
+}
+
+.tdtopo{
+	background-color:#FFF;
+	color:#000;
+
+}
+.tdtopotab{
+	background-color:#FFF;
+	color:#000;
+	border-collapse: collapse;
+}
+
+
+.td2{
+	background-color:#FFF;
+}
+
+.td3{
+	background-color:#fff;
+	color:#000;
+	border:0px;
+	text-align:right;
+	padding-right:30px;
+}
+
+table, th, td {
+	    font-family:verdana;
+    font-size: 14px;
+	
+}
+
+	a:link {color:#000;
+	font-weight: bold;
+	text-decoration:none;
+	}
+	a:active {color:#FF0000;
+	font-weight: bold;
+	text-decoration:none
+	}
+	a:visited {color:#000;
+	font-weight: bold;
+	text-decoration:none
+	}
+	a:hover {color:#FF0000;
+	font-weight: bold;
+	-webkit-text-stroke-width: 1px;
+-webkit-text-stroke-color: #fff;
+	text-decoration:none
+	font-size:10px;
+	font-size: 15px;
+	}
