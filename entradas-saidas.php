@@ -57,19 +57,8 @@ if(isset($_GET['filial'])){
 <script>
 
 function confirma(objPar) {
-    // Solicita a senha ao usuário
-    var senha = prompt("Add the Password:");
-
-    // Criptografa a senha digitada
-    senha = btoa(senha);
-	//alert(senha);
-    // Verifica se a senha criptografada está correta
-    if (senha === "Q2xlYXJAMjAyMA==") { 
-        if (confirm("Confirm delete?")) {
-            window.location = "entradas-saidas.php?apaga_id=" + objPar;
-        }
-    } else {
-        alert("Incorrect password. Action cancelled.");
+    if (confirm("Confirm delete?")) {
+        window.location = "entradas-saidas.php?apaga_id=" + objPar;
     }
 }
 

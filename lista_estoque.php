@@ -108,20 +108,8 @@ $filial_selecionada = isset($_GET['filial']) ? $_GET['filial'] : '';
 <script>
 
 function confirma(objPar) {
-    // Solicita a senha ao usuário
-     // var senha = prompt("Add the Password:");
-
-    // Criptografa a senha digitada
-    // senha = btoa(senha);
-	//alert(senha);
-    // Verifica se a senha criptografada está correta
-    //if (senha === "Q2xlYXJAMjAyMA==") { // Substitua "senha_correta" pela senha real criptografada
-    
-        if (confirm("Confirm delete?")) {
-            window.location = "lista_estoque.php?apaga_id=" + objPar;
-        // }
-    } else {
-        alert("Incorrect password. Action cancelled.");
+    if (confirm("Confirm delete?")) {
+        window.location = "lista_estoque.php?apaga_id=" + objPar;
     }
 }
 
